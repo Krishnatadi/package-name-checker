@@ -24,6 +24,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "author": "krishna tadi",
+  "license": "ISC",
   "eslintConfig": {
     "extends": [
       "react-app",

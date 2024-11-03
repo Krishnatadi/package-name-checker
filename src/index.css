@@ -11,6 +11,9 @@ body {
   flex-direction: column;
   background-color: #f0f4f8;
   color: #333;
+  padding-top: 56px;
+  margin: 0;
+  padding: 0;
 }
 
 code {
@@ -22,8 +25,17 @@ code {
 html, body {
   height: 100%;
 }
-main {
+.main {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 100px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 h1 {
   margin-top: 100px;
@@ -64,8 +76,8 @@ textarea.form-control {
 }
 
 /* Footer styling */
-footer {
-  background-color: #e9ecef;
-  padding: 10px 0;
-  font-size: 0.9rem;
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
 }

@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Package Name Checker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Easily check the availability and details of your desired package names on both **NPM** and **PyPi**. This tool provides instant insights into package names, including their current status, detailed information on existing packages, and a user-friendly interface for seamless navigation.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The **Package Name Checker** tool allows developers and package authors to quickly verify if their desired package name is available on **NPM** or **PyPi**. This tool reduces the hassle of navigating both package repositories individually, providing a one-stop solution for all your package name checking needs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Check Availability**: Instantly check if your desired package name is available on NPM or PyPi.
+- **Detailed Insights**: Get detailed information about existing packages, including versions, dependencies, and more.
+- **User-Friendly Interface**: Enjoy a clean and intuitive interface for seamless navigation and quick access to information.
+- **Responsive Design**: Optimized for both desktop and mobile devices for a smooth user experience.
+- **Instant Redirection**: Quickly navigate to the official NPM or PyPi page of an existing package.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Check out a live demo of the Package Name Checker [here](https://krishnatadi.github.io/package-name-checker).
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository and install dependencies to set up the project locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone the repository
+git clone https://github.com/Krishnatadi/package-name-checker.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Navigate into the directory
+cd package-name-checker
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Install dependencies
+npm install

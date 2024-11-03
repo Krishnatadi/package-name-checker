@@ -3,8 +3,8 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="container mt-5">
-        <h2 className="text-center">Contact Us</h2>
+        <div className="container mt-5 min-vh-100">
+        <h2 className="text-center" style={{marginTop: "60px"}}>Contact Us</h2>
         <p className="text-center">Feel free to reach out with any questions or concerns!</p>
         <form>
           <div className="mb-3">

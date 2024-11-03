@@ -1,4 +1,3 @@
-// pages/NpmChecker.js
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 
@@ -46,16 +45,20 @@ const NpmChecker = () => {
   };
 
   return (
-    <div className="text-center">
-      <h2>Check NPM Package Availability</h2>
-      <input 
-        type="text" 
-        className="form-control my-3"
-        placeholder="Enter NPM package name"
-        value={packageName}
-        onChange={(e) => setPackageName(e.target.value)}
-      />
-      <button className="btn btn-primary" onClick={checkPackageName}>Check</button>
+    <div className="d-flex flex-column min-vh-100">
+      <main className="flex-grow-1 d-flex align-items-center justify-content-center">
+        <div className="text-center" style={{ maxWidth: '400px', width: '100%' }}>
+          <h2>Check NPM Package Availability</h2>
+          <input 
+            type="text" 
+            className="form-control my-3"
+            placeholder="Enter NPM package name"
+            value={packageName}
+            onChange={(e) => setPackageName(e.target.value)}
+          />
+          <button className="btn btn-primary" onClick={checkPackageName}>Check</button>
+        </div>
+      </main>
     </div>
   );
 };

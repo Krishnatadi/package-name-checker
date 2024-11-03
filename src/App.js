@@ -10,7 +10,6 @@ import PyPiChecker from './components/PyPIChecker';
 import NpmChecker from './components/NpmChecker';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
-import './index.css';
 
 const App = () => {
 
@@ -18,7 +17,7 @@ const App = () => {
     <Router>
       <div className="d-flex flex-column min-vh-100">
         <NavBar />
-        <main className="flex-grow-1 d-flex align-items-center justify-content-center">
+        <main>
           <Routes>
             <Route path="/" element={<Navigate to="/package-name-checker" />} />
             <Route path="/package-name-checker" element={<HomePage />} />
